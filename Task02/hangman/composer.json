@@ -1,0 +1,24 @@
+{
+    "name": "mininde/hangman",
+    "autoload": {
+        "psr-4": {
+            "Mininde\\Hangman\\": "src/"
+        },
+        "files": [
+            "src/Controller.php",
+            "src/View.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "dim302",
+            "email": "125114824+dim302@users.noreply.github.com"
+        }
+    ],
+    "bin": [
+        "bin/hangman.php"
+    ],
+    "require": {
+        "wp-cli/php-cli-tools": "^0.11.21"
+    }
+}
